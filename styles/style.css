@@ -39,40 +39,43 @@
 }
 
 /* about me section styles. */
-.aboutme{
-    margin: 130px 200px 0;
-    text-align: center;
-    background-color: #00ccff;
-    background-image: linear-gradient(to top, rgba(0, 92, 230, 0), rgba(0, 92, 230, 1));
-    border-radius: 10px;
-    padding: 30px;
+.aboutme {
+  margin: 130px 200px 0;
+  text-align: center;
+  background-color: #00ccff;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 92, 230, 0),
+    rgba(0, 92, 230, 1)
+  );
+  border-radius: 10px;
+  padding: 30px;
 }
-.aboutme-header{
-    color: whitesmoke;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 45px;
+.aboutme-header {
+  color: whitesmoke;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 45px;
 }
-.aboutme-description{
-    color: whitesmoke;
-    font-size: 18px;
-    margin-bottom: 35px;
+.aboutme-description {
+  color: whitesmoke;
+  font-size: 18px;
+  margin-bottom: 35px;
 }
-.aboutme-info{
-
+.aboutme-info {
 }
-.aboutme-info-header{
-    color: whitesmoke;
-    margin-top: 20px;
-    font-size: 25px;
+.aboutme-info-header {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 25px;
 }
-.aboutme-info-details{
-    color: whitesmoke;
-    margin-bottom: 30px;
+.aboutme-info-details {
+  color: whitesmoke;
+  margin-bottom: 30px;
 }
-.aboutme-info-container{
-    display: flex;
-    justify-content:space-evenly;
+.aboutme-info-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -139,7 +142,7 @@
   font-weight: 700;
   font-size: 37px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 .str-wkn-container {
   display: flex;
@@ -147,15 +150,16 @@
 }
 .str-header,
 .wkn-header {
-  text-align: center;
+  text-align: left;
   color: #151414;
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  text-decoration: underline solid black 2px;
 }
 .str,
 .wkn {
-  text-align: right;
+  text-align: left;
   color: #151414;
   font-size: 20px;
   font-weight: 600;
@@ -164,7 +168,7 @@
 .str-des,
 .wkn-des {
   color: #444343;
-  text-align: right;
+  text-align: left;
   margin-bottom: 10px;
 }
 hr {
@@ -235,12 +239,12 @@ hr {
   color: #ffffff;
   margin-bottom: 32px;
 }
-#space-btw-icons{
-    margin-left: 10px;
-    margin-right: 10px;
+#space-btw-icons {
+  margin-left: 10px;
+  margin-right: 10px;
 }
-.Subscribe{
-    margin: 130px 120px 245px 0;
+.Subscribe {
+  margin: 130px 120px 245px 0;
 }
 .subscribe-header {
   color: #ffffff;
