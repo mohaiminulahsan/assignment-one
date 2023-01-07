@@ -28,12 +28,43 @@
 .bannar-btn {
   font-weight: 600;
   font-size: 20px;
-  color: #005FAC;
+  color: #005fac;
   padding: 20px 25px;
   border: 0;
   border-radius: 5px;
   margin: 0 100px 166px 1120px;
 }
-.bannar-btn:hover{
-    background-color: lightgrey;
+.bannar-btn:hover {
+  background-color: lightgrey;
+}
+
+/* failures-section styles */
+.failures {
+  display: flex;
+  gap: 85px;
+  /* justify-content: center; */
+  margin: 131px 322px 130px 206px;
+}
+.failures-writing {
+  padding-top: 240px;
+  text-align: left;
+}
+.failures-header {
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.failures-description {
+  padding-bottom: 16px;
+  color: #444343;
+}
+.failures-list {
+  list-style: none;
+  padding-left: 0;
+  color: #444343;
+}
+.failures-list li:before {
+  content: "✓";
+  color: green;
 }
