@@ -38,6 +38,44 @@
   background-color: lightgrey;
 }
 
+/* about me section styles. */
+.aboutme{
+    margin: 130px 200px 0;
+    text-align: center;
+    background-color: #00ccff;
+    background-image: linear-gradient(to top, rgba(0, 92, 230, 0), rgba(0, 92, 230, 1));
+    border-radius: 10px;
+    padding: 30px;
+}
+.aboutme-header{
+    color: whitesmoke;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+.aboutme-description{
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.aboutme-info{
+
+}
+.aboutme-info-header{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.aboutme-info-details{
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+.aboutme-info-container{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+
 /* failures-section styles */
 .failures {
   display: flex;
@@ -196,6 +234,10 @@ hr {
 .future-info {
   color: #ffffff;
   margin-bottom: 32px;
+}
+#space-btw-icons{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .Subscribe{
     margin: 130px 120px 245px 0;
