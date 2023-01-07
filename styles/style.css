@@ -123,22 +123,49 @@
   font-weight: 600;
   margin-bottom: 10px;
 }
-.str-des, .wkn-des{
-    color: #444343;
-    text-align: right;
-    margin-bottom: 10px;
+.str-des,
+.wkn-des {
+  color: #444343;
+  text-align: right;
+  margin-bottom: 10px;
 }
-hr{
-    margin-bottom: 5px;
+hr {
+  margin-bottom: 5px;
 }
-.strengths, .weaknesses{
-    padding: 0 50px 0;
+.strengths,
+.weaknesses {
+  padding: 0 50px 0;
 }
-.strengths-weaknesses{
-    margin-bottom: 130px;
+.strengths-weaknesses {
+  margin-bottom: 130px;
 }
 
 /* gradient section styles. */
-.grad{
-    background-image: url('../assets/images/watch.png') ;
+.grad {
+  background-image: linear-gradient(to, rgba(0, 0, 205, 0), rgba(0, 0, 205, 1));
+  background-image: url("../assets/images/gradient1.png"),
+    url("../assets/images/watch.png");
+  background-repeat: no-repeat;
+  /* background-blend-mode: overlay; */
+  width: 1140px;
+  height: 300px;
+  margin: 0 200px 130px;
+  justify-content: space-evenly;
+}
+.grad-header {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 69px 617px 25px 64px;
+}
+.grad-btn {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 36px;
+  background: #ffffff;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 64px;
 }
