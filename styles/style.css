@@ -68,3 +68,29 @@
   content: "✓";
   color: green;
 }
+
+/* my-plans section styles */
+.plans-header {
+  margin: 0 650px 50px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+}
+.plans {
+  display: flex;
+  margin: 0 230px 130px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.plan-header {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+}
+.plan-description{
+    color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+}
